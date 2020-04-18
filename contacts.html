@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Контакты</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+            <li class="nav-item"><a class="nav-link" href="catalog.html">Каталог</a></li>
+            <li class="nav-item active"><a class="nav-link" href="contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+</nav>
+<hr>
+<div class="container">
+    <h1>Напишите нам</h1>
+    <form action="contacts.html" method="post">
+        <div class="form-group">
+            <label for="name">Имя</label>
+            <input type="text" name="name" id="name" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="subject">Тема</label>
+            <input type="text" name="subject" id="subject" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="text">Текст сообщения</label>
+            <textarea name="text" id="text" rows="4" class="form-control">
+            </textarea>
+        </div>
+        <div class="form-group">
+            <label for="file">Вложение</label>
+            <input type="file" name="file" id="file">
+        </div>
+        <button type="submit" class="btn btn-success">Отправить</button>
+    </form>
+    <h2>Адрес</h2>
+    <ul>
+        <li><strong>Телефон:</strong> <a href="tel:880088088000">880088088000</a></li>
+        <li><strong>Адрес:</strong> Калининград</li>
+        <li><strong>Email:</strong> <a href="mailto:test@example.com">test@example.com</a></li>
+    </ul>
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aaab517e0b3eed93929b66029d7d57b558490e03d14d4e863b47956cefd4aafe6&amp;width=100%25&amp;height=614&amp;lang=ru_RU&amp;scroll=true"></script>
+</div>
+<hr>
+<footer class="page-footer">
+    <div class="container-fluid text-center">
+        Все права защищены &copy;
+    </div>
+</footer>
+</body>
+</html>
