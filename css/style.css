@@ -1,0 +1,57 @@
+body {
+    background: #f8f8f8;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.navbar-light .navbar-nav a.nav-link {
+    color: #ccc;
+    font-style: italic;
+}
+
+.product h2 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+.description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full-description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: left;
+}
+
+.product .properties {
+    color: #555;
+    font-weight: 500;
+    list-style: url("../icons/bike_icon.png");
+    text-align: justify;
+}
+.contact_form input{
+    width: 200px;
+    height: 30px;
+    color: #855400;
+    font-weight: bold;
+    font-family: Verdana sans-serif;
+}
+.contact_form textarea{
+    max-width: 200px;
+}
+.product img {
+    border: 1px solid #eaeaea;
+}
