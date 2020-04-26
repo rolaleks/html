@@ -47,11 +47,38 @@ body {
     height: 30px;
     color: #855400;
     font-weight: bold;
-    font-family: Verdana sans-serif;
+    font-family: Verdana, sans-serif;
 }
 .contact_form textarea{
     max-width: 200px;
 }
 .product img {
     border: 1px solid #eaeaea;
+}
+
+.navbar-light .navbar-nav a.nav-link:hover {
+    color: #000000;
+}
+
+input[type="email"]:focus {
+    background: #eaeaea;
+    color: red;
+}
+
+input {
+    text-transform: capitalize;
+}
+
+table.properties td:first-child {
+    min-width: 100px;
+}
+
+.gallery-product img:hover {
+    border: 0px;
+    margin: 1px;
+}
+
+.product p:first-letter {
+    color: red;
+    font-size: 20px;
 }

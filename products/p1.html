@@ -8,15 +8,18 @@
     <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="collapse navbar-collapse">
-        <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
-            <li class="nav-item active"><a class="nav-link" href="../catalog.html">Каталог</a></li>
-            <li class="nav-item"><a class="nav-link" href="../contacts.html">Контакты</a></li>
-        </ul>
-    </div>
-</nav>
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./"><img src="../icons/bike_cycling.png"/></a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                <li class="nav-item active"><a class="nav-link" href="../catalog.html">Каталог</a></li>
+                <li class="nav-item"><a class="nav-link" href="../contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
 <hr>
 <div class="container product">
     <h1>Cube Nuroad Pro Road Bike 2020</h1>
@@ -32,18 +35,34 @@
                 <p>A nippy and nimble road bike that is just as at home on the road less travelled</p>
             </div>
             <h2>Характеристики товара</h2>
-            <ul class="properties">
-                <li>
-                    <strong>Frame:</strong> Aluminium 6061 T6 Superlite, Gravel Comfort Geometry, Flat Mount Disc,
-                    Fender & Rack Option,
-                    12x142mm, AXH
-                </li>
-                <li>
-                    <strong>Fork:</strong> Cube Nuroad Disc, One Piece 3D-Forged Steerer/Crown, Carbon Blades, 1 1/8" -
-                    1 1/2" Tapered,
-                    Flat Mount, 12x100mm
-                </li>
-            </ul>
+            <table class="properties">
+                <tbody>
+                    <tr>
+                        <th>Type</th>
+                        <th>Value</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Frame:</strong>
+                        </td>
+                        <td>
+                            Aluminium 6061 T6 Superlite, Gravel Comfort Geometry, Flat Mount Disc,
+                            Fender & Rack Option,
+                            12x142mm, AXH
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Fork:</strong>
+                        </td>
+                        <td>
+                            Cube Nuroad Disc, One Piece 3D-Forged Steerer/Crown, Carbon Blades, 1 1/8" -
+                            1 1/2" Tapered,
+                            Flat Mount, 12x100mm
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
             <h2>Подробное описание товара</h2>
             <div class="full-description">
                 <p>
@@ -66,7 +85,7 @@
 
 </div>
 <hr>
-<footer class="page-footer">
+<footer class="page-footer footer">
     <div class="container-fluid text-center">
         Все права защищены &copy;
     </div>
