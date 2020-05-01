@@ -9,7 +9,7 @@ body {
 
 }
 
-.navbar-light .navbar-nav a.nav-link {
+a.nav-link {
     color: #ccc;
     font-style: italic;
 }
@@ -42,21 +42,24 @@ body {
     list-style: url("../icons/bike_icon.png");
     text-align: justify;
 }
-.contact_form input{
+
+.contact_form input {
     width: 200px;
     height: 30px;
     color: #855400;
     font-weight: bold;
     font-family: Verdana, sans-serif;
 }
-.contact_form textarea{
+
+.contact_form textarea {
     max-width: 200px;
 }
+
 .product img {
     border: 1px solid #eaeaea;
 }
 
-.navbar-light .navbar-nav a.nav-link:hover {
+.navbar-nav a.nav-link:hover {
     color: #000000;
 }
 
@@ -81,4 +84,71 @@ table.properties td:first-child {
 .product p:first-letter {
     color: red;
     font-size: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1240px;
+}
+
+.header {
+    height: 150px;
+}
+
+.header img {
+    margin-left: 25px;
+}
+
+.header .navbar-nav {
+    float: right;
+    display: block;
+}
+
+.header:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.header li {
+    display: inline-block;
+}
+
+footer {
+    height: 150px;
+    background: #bbbbbb;
+}
+
+footer {
+    text-align: right;
+    padding: 10px 15px 0 0;
+}
+
+.product input[type="button"]:hover {
+    color: #855400;
+    border: 1px salmon solid;
+}
+
+.product input[type="button"]:active {
+    color: #0a851d;
+    border: 1px #402cfa solid;
+    font-size: 20px;
+}
+
+.product-list-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.product-item {
+    min-width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header {
+    background: url("../icons/bike_icon.png");
+    background-repeat: repeat-x;
 }
