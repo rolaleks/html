@@ -10,9 +10,10 @@ input {
 }
 
 .container {
-    max-width: 1170px;
+
     margin: 0 auto;
     position: relative;
+    padding: 0px;
 }
 
 header {
@@ -151,21 +152,13 @@ h1 {
     font-style: italic;
 }
 
-.product-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-basis: 33%;
-}
-
 .product-item {
-    width: 270px;
     height: 318px;
     background-color: #fff;
     position: relative;
     margin-bottom: 30px;
-    margin-right: 30px;
     color: #333;
+    padding: 10px;
 }
 
 .product-item:nth-child(3n+3) {
@@ -173,7 +166,6 @@ h1 {
 }
 
 .product-item .image-holder {
-    margin: 10px;
     background: #f8f8f8;
     height: 230px;
 }
@@ -209,7 +201,7 @@ h1 {
 
 .product-item .product-title {
     font-size: 11px;
-    padding: 10px 0 0 30px;
+    padding: 10px 0 0 20px;
     float: left;
     max-width: 130px;
 }
@@ -217,7 +209,7 @@ h1 {
 .product-item .product-price {
     font-size: 15px;
     float: right;
-    padding: 10px 10px 0 0;
+    padding: 10px 0 0 0;
     text-align: right;
 }
 
@@ -388,22 +380,65 @@ form.subscribe input[type="submit"] {
     display: flex;
     justify-content: space-between;
 }
-.bottom-container{
+
+.bottom-container {
     background: #333;
     min-height: 48px;
     color: #dad9d9;
     font-size: 12px;
 }
-.bottom-container p{
+
+.bottom-container p {
     line-height: 48px;
     margin: 0;
     width: 50%;
     display: inline-block;
 }
+
 footer .menu {
     display: flex;
     width: 160px;
     justify-content: space-between;
     float: right;
     margin-top: 18px;
+}
+
+.navbar {
+    z-index: 11;
+}
+
+@media (max-width: 991px) {
+
+    .brands {
+        flex-wrap: wrap;
+    }
+
+    .brand {
+        margin-right: 20px;
+    }
+
+    .insta-feed {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .right-column {
+        margin: 0;
+    }
+
+    .welcome-wrapper {
+        display: none;
+    }
+
+    .footer-menu-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .footer-column {
+        max-width: none;
+    }
+
 }
